@@ -6,11 +6,18 @@
     <title>AI提示词六要素公式：教师高效指南</title>
     <!-- Load Tailwind CSS -->
     <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Reverting to ZCOOL KuaiLe Ti font for a fun, lively look on headings -->
+    <link href="https://fonts.googleapis.com/css2?family=ZCOOL+KuaiLe&display=swap" rel="stylesheet">
     <style>
-        /* Custom styles for Inter font and general polish */
+        /* Custom styles for 'ZCOOL KuaiLe' for headings and clean body font */
         body {
-            font-family: 'Inter', sans-serif;
+            /* Use a clean, system default font stack for optimal readability (visible) */
+            font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", "Microsoft YaHei", "PingFang SC", "Hiragino Sans GB", "Noto Sans TC", sans-serif;
             background-color: #f3f4f6; /* Lighter, subtle background */
+        }
+        /* Apply the lively ZCOOL KuaiLe font to the main titles (更生动) */
+        h1, h2 {
+            font-family: 'ZCOOL+KuaiLe', ui-sans-serif, system-ui, sans-serif;
         }
         .card {
             transition: all 0.3s ease;
@@ -313,6 +320,51 @@
             <p class="mt-4 text-lg text-gray-600">
                 <span class="font-bold">下一步：</span> 鼓励老师们先从“基础示例”开始尝试，熟悉每个要素的作用，再挑战“进阶示例”。
             </p>
+        </section>
+
+        <!-- HANDS-ON PRACTICE SECTION (NEWLY ADDED) -->
+        <section class="mt-10 p-6 rounded-xl bg-blue-700 text-white shadow-2xl border-b-8 border-blue-400">
+            <h2 class="text-3xl font-bold mb-4 text-blue-100 border-b border-blue-500 pb-2">🚀 实战演练：现在就来试试看！</h2>
+            <p class="text-xl font-light mb-6 text-blue-200">
+                请根据您的真实需求，将六大要素填入下方的“提示词配方”中。完成后，您就可以直接复制到任何AI聊天工具中使用。
+            </p>
+
+            <div class="space-y-4 p-6 rounded-xl bg-gray-900 shadow-xl">
+                <h3 class="text-2xl font-bold text-green-400 mb-4">📝 您的专属提示词配方</h3>
+                
+                <!-- Prompt Component 1: C1 Role -->
+                <p class="text-lg leading-relaxed text-gray-200">
+                    <span class="text-yellow-400 font-extrabold mr-2">【角色定位 C1】</span>
+                    你是 <span class="text-yellow-200 font-mono italic"> (e.g., 一位经验丰富的五年级数学老师) </span>，
+                </p>
+
+                <!-- Prompt Component 2: C2 Aim + C3 Topic -->
+                <p class="text-lg leading-relaxed text-gray-200">
+                    <span class="text-green-400 font-extrabold mr-2">【清晰目标 C2】</span>
+                    请帮我设计 <span class="text-green-200 font-mono italic"> (e.g., 20道关于分数的选择题) </span>，
+                    <span class="text-red-400 font-extrabold mr-2">【内容主题 C3】</span>
+                    内容必须是 <span class="text-red-200 font-mono italic"> (e.g., SJKC三年级华文课本《我的家》课文理解) </span>。
+                </p>
+
+                <!-- Prompt Component 3: C4 Audience -->
+                <p class="text-lg leading-relaxed text-gray-200">
+                    <span class="text-purple-400 font-extrabold mr-2">【受众设定 C4】</span>
+                    请记住，班级学生能力 <span class="text-purple-200 font-mono italic"> (e.g., 基础较弱，需用生活化例子讲解) </span>。
+                </p>
+
+                <!-- Prompt Component 4: C5 Format + C6 Constraints -->
+                <p class="text-lg leading-relaxed text-gray-200">
+                    <span class="text-orange-400 font-extrabold mr-2">【结构格式 C5】</span>
+                    以 <span class="text-orange-200 font-mono italic"> (e.g., Markdown表格，包含题目、答案和解说) </span> 格式输出；
+                    <span class="text-blue-400 font-extrabold mr-2">【具体限制 C6】</span>
+                    并且 <span class="text-blue-200 font-mono italic"> (e.g., 必须包含一个高层次思维 HOTS 题目) </span>。
+                </p>
+
+                <div class="mt-6 pt-4 border-t border-gray-700">
+                    <p class="text-lg font-bold text-red-400">💡 提示：</p>
+                    <p class="text-base text-gray-400">请用您的真实内容替换括号内的文字，然后将整个段落复制到AI中。</p>
+                </div>
+            </div>
         </section>
 
         <!-- FOOTER - Increased from text-sm to text-base -->
